@@ -32,7 +32,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", system-ui, sans-serif;
+  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", "YuGothic", sans-serif;
   font-size: 16px;
   line-height: 1.75;
 }
@@ -162,7 +162,7 @@ textarea {
   color: var(--green);
   font-size: .78rem;
   font-weight: 900;
-  text-transform: uppercase;
+  letter-spacing: .04em;
 }
 
 .hero-copy h1 {
@@ -367,6 +367,7 @@ textarea {
 }
 
 .resource-card.is-primary {
+  grid-column: span 2;
   background: var(--green-soft);
   border-color: #b8dacb;
 }
@@ -833,6 +834,10 @@ textarea {
   .resource-grid,
   .prompt-grid {
     grid-template-columns: 1fr;
+  }
+
+  .resource-card.is-primary {
+    grid-column: span 1;
   }
 
   .use-strip {

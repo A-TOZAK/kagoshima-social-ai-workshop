@@ -6,6 +6,9 @@
     <meta name="description" content="鹿児島小学校社会科研究会オンライン研修「社会科における生成AIの活用」の資料・WebApp・プロンプト・振り返りフォームをまとめた参加者向けサイトです。">
     <meta name="theme-color" content="#1f5f4a">
     <title>社会科における生成AIの活用 | 鹿児島小社研 研修サイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -30,7 +33,7 @@
     <main id="main">
       <section class="hero-shell" id="top" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="kicker">2026.6.18 Thu 19:00-20:00 / Online Workshop</p>
+          <p class="kicker">2026年6月18日（木）19:00–20:00 ／ オンライン研修</p>
           <h1 id="hero-title">社会科における<br>生成AIの活用</h1>
           <p class="hero-lead">
             研修中に使うリンク、あとから見返す資料、明日の授業準備でコピーできるプロンプトをこのページにまとめました。
@@ -38,16 +41,16 @@
           </p>
 
           <div class="hero-actions" aria-label="すぐ使うリンク">
-            <a class="button primary" href="https://script.google.com/macros/s/AKfycbx58AycZ0-RQp3YSHdVTZPBac6K-AwZE6rnAFNGyNUnIajaP1aClX6f_hp33_tQs8tl/exec" target="_blank" rel="noopener">
-              <span class="button-icon" aria-hidden="true">↗</span>
-              研修用WebApp
+            <a class="button primary" href="https://note.com/tozaki_edu/n/nc1a5b3e1f881" target="_blank" rel="noopener">
+              <span class="button-icon" aria-hidden="true">note</span>
+              研修記事を読む
             </a>
             <a class="button" href="assets/docs/kagoshima-social-ai-workshop.pdf" target="_blank" rel="noopener">
               <span class="button-icon" aria-hidden="true">PDF</span>
               スライドPDF
             </a>
             <a class="button" href="#prompts">
-              <span class="button-icon" aria-hidden="true">CP</span>
+              <span class="button-icon" aria-hidden="true">→</span>
               プロンプトをコピー
             </a>
           </div>
@@ -56,7 +59,7 @@
             <div>
               <span>01</span>
               <strong>研修で開く</strong>
-              <small>ふきだしくん・WebAppへ</small>
+              <small>スライド・プロンプトへ</small>
             </div>
             <div>
               <span>02</span>
@@ -86,17 +89,17 @@
 
       <section class="section quick-section" id="materials" aria-labelledby="materials-title">
         <div class="section-head">
-          <p class="section-kicker">Materials</p>
+          <p class="section-kicker">資料・入口</p>
           <h2 id="materials-title">研修中・研修後に使う入口</h2>
           <p>参加者がスマホでも押しやすいよう、主なリンクをカード化しています。</p>
         </div>
 
         <div class="resource-grid">
           <article class="resource-card is-primary">
-            <div class="resource-meta">研修中</div>
-            <h3>研修用WebAppを開く</h3>
-            <p>社会科×生成AIの「はてな？」を書き出す入口として使います。</p>
-            <a class="text-link" href="https://script.google.com/macros/s/AKfycbx58AycZ0-RQp3YSHdVTZPBac6K-AwZE6rnAFNGyNUnIajaP1aClX6f_hp33_tQs8tl/exec" target="_blank" rel="noopener">WebAppを開く</a>
+            <div class="resource-meta">note</div>
+            <h3>研修内容の記事</h3>
+            <p>研修の考え方と流れを文章で読み返せます。終わったあとに見返すのにいちばん向いています。</p>
+            <a class="text-link" href="https://note.com/tozaki_edu/n/nc1a5b3e1f881" target="_blank" rel="noopener">noteを読む</a>
           </article>
 
           <article class="resource-card">
@@ -104,13 +107,6 @@
             <h3>研修スライド</h3>
             <p>当日のスライドをブラウザで開けます。必要に応じて保存できます。</p>
             <a class="text-link" href="assets/docs/kagoshima-social-ai-workshop.pdf" target="_blank" rel="noopener">PDFを開く</a>
-          </article>
-
-          <article class="resource-card">
-            <div class="resource-meta">note</div>
-            <h3>研修内容の記事</h3>
-            <p>研修の考え方と流れを文章で読み返せます。</p>
-            <a class="text-link" href="https://note.com/tozaki_edu/n/nc1a5b3e1f881" target="_blank" rel="noopener">noteを読む</a>
           </article>
 
           <article class="resource-card">
@@ -128,17 +124,17 @@
           </article>
 
           <article class="resource-card muted-card">
-            <div class="resource-meta">印刷用</div>
-            <h3>ワークシート</h3>
-            <p>Illustratorで作成した印刷用データを、あとからここに追加できます。</p>
-            <span class="text-link disabled">準備中</span>
+            <div class="resource-meta">研修中</div>
+            <h3>研修用WebApp</h3>
+            <p>社会科×生成AIの「はてな？」を書き出す入口として使います。</p>
+            <a class="text-link" href="https://script.google.com/macros/s/AKfycbx58AycZ0-RQp3YSHdVTZPBac6K-AwZE6rnAFNGyNUnIajaP1aClX6f_hp33_tQs8tl/exec" target="_blank" rel="noopener">WebAppを開く</a>
           </article>
         </div>
       </section>
 
       <section class="section flow-section" id="flow" aria-labelledby="flow-title">
         <div class="section-head">
-          <p class="section-kicker">Workshop Flow</p>
+          <p class="section-kicker">研修の流れ</p>
           <h2 id="flow-title">研修の全体像</h2>
           <p>「ツール紹介」ではなく、社会科の授業づくりの中で生成AIをどう位置付けるかを扱います。</p>
         </div>
@@ -174,7 +170,7 @@
       <section class="section prompt-section" id="prompts" aria-labelledby="prompts-title">
         <div class="section-head split-head">
           <div>
-            <p class="section-kicker">Prompt Cards</p>
+            <p class="section-kicker">プロンプト</p>
             <h2 id="prompts-title">明日使えるプロンプト</h2>
             <p>研修の内容を、授業準備でそのまま試せる形にしました。検索してコピーできます。</p>
           </div>
@@ -198,8 +194,8 @@
 
       <section class="section reference-section" aria-labelledby="reference-title">
         <div class="section-head">
-          <p class="section-kicker">Related Works</p>
-          <h2 id="reference-title">既存の公開物</h2>
+          <p class="section-kicker">あわせて使える</p>
+          <h2 id="reference-title">関連する公開教材</h2>
           <p>今回の研修とつながる、すでに公開済みの教材・道具箱です。</p>
         </div>
 
@@ -211,10 +207,6 @@
           <a class="reference-row" href="https://a-tozak.github.io/shakai-kotoba-jiten/" target="_blank" rel="noopener">
             <span>社会ことば辞典</span>
             <strong>社会科のつまずきを集めて育てる教材サイト</strong>
-          </a>
-          <a class="reference-row" href="https://github.com/A-TOZAK" target="_blank" rel="noopener">
-            <span>GitHub</span>
-            <strong>外崎顕博 / A-TOZAK の公開リポジトリ</strong>
           </a>
         </div>
       </section>
@@ -244,7 +236,7 @@
     </footer>
 
     <div class="mobile-actions" aria-label="固定アクション">
-      <a href="https://script.google.com/macros/s/AKfycbx58AycZ0-RQp3YSHdVTZPBac6K-AwZE6rnAFNGyNUnIajaP1aClX6f_hp33_tQs8tl/exec" target="_blank" rel="noopener">WebApp</a>
+      <a href="https://note.com/tozaki_edu/n/nc1a5b3e1f881" target="_blank" rel="noopener">note記事</a>
       <a href="#prompts">コピー</a>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-lXEyDQKFLjC3BntdDVM34FQZeUlgVTwWFIVuADohss1G_Q/viewform?usp=header" target="_blank" rel="noopener">フォーム</a>
     </div>
